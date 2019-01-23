@@ -14,11 +14,11 @@ class Appointment
   end
 
   def patients
-    self.patient
+    appointment.patient = self
   end
 
   def doctors
-    self.doctor
+    appointment.doctor
   end
 
 end
