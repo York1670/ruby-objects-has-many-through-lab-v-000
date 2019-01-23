@@ -18,7 +18,7 @@ class Appointment
   end
 
   def doctors
-    appointment.doctor
+    appointment.doctor = self
   end
 
 end
