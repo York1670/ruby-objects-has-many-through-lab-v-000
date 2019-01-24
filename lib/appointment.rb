@@ -13,12 +13,4 @@ class Appointment
     @@all
   end
 
-  def patients
-    appointment.patient = self
-  end
-
-  def doctors
-    appointment.doctor = self
-  end
-
 end
